@@ -1,4 +1,2 @@
-# NetworkTrafficAnalysis
-Repo for network traffic analysis documentation webpage
-
-## test
+# Network Traffic Analysis
+This project builds upon the 2022 project Network Traffic Analysis, optimising their implementations of packet sniffing. The project as it existed last year was capable of detecting numerous attack methods, but with other methods becoming more prominent, this project aims to expand the scope of the previous version. This includes the development and optimisation of a pack sniffing tool for analysis of traffic patterns (including, but not exhaustive, of ARP poisoning, TCP SYN Flood, ICMP Flood and DoS attacks). This site will act as a guide for using the program.
