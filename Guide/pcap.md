@@ -46,3 +46,13 @@ Packets can be selected using the selection buttons or by left-clicking. By hold
  - By double-clicking on a packet, the following window containing raw packet data and layer details apppears:
 ![image](https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/a52e0b21-9c7a-4b7e-ae1b-1530b76236a9)
 
+## Packet Filtering
+![image](https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/2b22c083-5400-44b2-9dc0-338641d844b2)
+Packets can be filtered using the filter inputs. Once the filter button is pressed, any packets not matching the specified filters will be removed, and no future packets outside the filter will show up.
+
+-  *Protocol*: Select a protocol to filter packets by.
+-  *Source Address*: Enter the source address that all packets must come from.
+-  *Destination Address*: Enter the address all packets must have as their destination.
+-  <img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/3788e3fa-e9ad-4142-a0b3-462dbadd5840" alt="filter button" style="width:3em;"/> Apply the specified filter to current and future packets.
+-  *Amount*: Limit the maximum number of packets captured. Needs to be specified before capture. Once specified, any packets past the specified limit will not show up.
+
