@@ -20,8 +20,29 @@ All currently captured packets can be saved as a `.pcap` file. Any accessible `.
  - <img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/89a65b8d-2b0c-4256-b7f9-00bf4976c3f5" alt="load file button" style="width:1em;"/> Load a `.pcap` file. Will bring up standard file loading window. `CTRL+O`
  - <img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/d1905a50-8cf9-4908-975c-67988a7a6383" alt="settings button" style="width:1em;"/> Bring up configuration window:
 
-<img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/7062a585-d126-4519-8e2b-50e45a6016d5" alt="settings button" align="left"/>
+<img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/7062a585-d126-4519-8e2b-50e45a6016d5" alt="settings button" align="left" style="padding-right:30px"/>
 <br>
 <br>
 <br>
 Here, the threshold settings of attack analyses can be changed. Any changed thresholds will overwrite the default thresholds and get saved to a config file. The application of these thresholds is explained in the Analysis Guide.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+
+## Packet Selection
+
+![image](https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/1918486b-5749-4ba7-8996-465bacdf8a47)
+
+Packets can be selected using the selection buttons or by left-clicking. By holding control, mutiple packets can be selected or deselected at once. Selected packets can be marked/unmarked using `CTRL+M` or the edit toolbar (marked packets will be highlighted black). Selected packets can be ignored/unignored using `CTRL+D`. Ignored packets will be highlighted black, and will not be analysed. All packets can be ignored with `CTRL+SHIFT+D`.
+
+ - <img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/e9f439d2-dc9e-444e-898f-e779486866fa" alt="left button" style="width:1em;"/> Select the previous packet. Selects the latest packet if no packets are selected.
+ - <img src="https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/de8ae097-fc3b-4b3c-9e81-2a46c22fc5ac" alt="right button" style="width:1em;"/> Select the next packet. Selects the first packet if no packets are selected.
+ - By double-clicking on a packet, the following window containing raw packet data and layer details apppears:
+![image](https://github.com/TomosSherlock/NetworkTrafficAnalysis/assets/123552121/a52e0b21-9c7a-4b7e-ae1b-1530b76236a9)
+
